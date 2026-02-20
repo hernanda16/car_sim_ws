@@ -1,1 +1,0 @@
-/home/her/Documents/project/SIM_IST/build/towing/ament_cmake_environment_hooks/local_setup.sh
