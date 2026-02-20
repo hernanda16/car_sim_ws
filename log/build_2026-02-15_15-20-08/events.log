@@ -1,0 +1,413 @@
+[0.000000] (-) TimerEvent: {}
+[0.000254] (towing) JobQueued: {'identifier': 'towing', 'dependencies': OrderedDict()}
+[0.000362] (towing) JobStarted: {'identifier': 'towing'}
+[0.019345] (towing) JobProgress: {'identifier': 'towing', 'progress': 'cmake'}
+[0.021658] (towing) Command: {'cmd': ['/usr/bin/cmake', '/home/her/Documents/project/SIM_IST/src/towing', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/her/Documents/project/SIM_IST/install/towing'], 'cwd': '/home/her/Documents/project/SIM_IST/build/towing', 'env': OrderedDict([('PROFILEHOME', ''), ('MCFLY_RESULTS_SORT', 'LAST_RUN'), ('KDE_FULL_SESSION', 'true'), ('MAIL', '/var/spool/mail/her'), ('LANGUAGE', ''), ('USER', 'her'), ('PAM_KWALLET5_LOGIN', '/run/user/1000/kwallet5.socket'), ('LC_TIME', 'en_US.UTF-8'), ('STARSHIP_SHELL', 'fish'), ('HOSTNAME', 'her-14AHP9'), ('XDG_SESSION_TYPE', 'wayland'), ('MCFLY_INTERFACE_VIEW', 'BOTTOM'), ('MCFLY_HISTFILE', '/home/her/.zhistory'), ('KONSOLE_VERSION', '251201'), ('XDG_CACHE_HOME', '/home/her/.cache'), ('QT_WAYLAND_RECONNECT', '1'), ('SHLVL', '5'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', 'firedragon'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/her'), ('MCFLY_HISTORY', '/dev/null'), ('MCFLY_RESULTS', '20'), ('MOZ_ENABLE_WAYLAND', '1'), ('KDE_APPLICATIONS_AS_SCOPE', '1'), ('OLDPWD', '/home/her'), ('DESKTOP_SESSION', 'plasma'), ('AMD_VULKAN_ICD', 'RADV'), ('MANROFFOPT', '-c'), ('ROS_PYTHON_VERSION', '3'), ('GTK_RC_FILES', '/etc/gtk/gtkrc:/home/her/.gtkrc:/home/her/.config/gtkrc'), ('KDE_SESSION_VERSION', '6'), ('PS1', '\\[\\e[32m\\]\\u@\\h\\[\\e[0m\\]:\\[\\e[34m\\]\\w\\[\\e[0m\\]$'), ('LC_MONETARY', 'en_US.UTF-8'), ('KONSOLE_DBUS_SESSION', '/Sessions/1'), ('MANAGERPID', '1405'), ('DISTROBOX_ENTER_PATH', '/usr/bin/distrobox-enter'), ('SYSTEMD_EXEC_PID', '1955'), ('VISUAL', 'kate'), ('XDG_STATE_HOME', '/home/her/.local/state'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('container', 'sudo podman'), ('KONSOLE_DBUS_ACTIVATION_COOKIE', 'zIiQRY4785iK4PDXI3KaZo08mZ9wQRUBlsBQBCPGo5U='), ('MCFLY_HISTORY_FORMAT', 'zsh'), ('KONSOLE_DBUS_WINDOW', '/Windows/1'), ('DEBUGINFOD_URLS', 'https://debuginfod.archlinux.org'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/her/turtlebot3_ws/install'), ('XKB_DEFAULT_LAYOUT', 'us'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'her'), ('WINDOWID', '93903298832288'), ('MANAGERPIDFDID', '1406'), ('JOURNAL_STREAM', '9:29952'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('MEMORY_PRESSURE_WATCH', '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-org.kde.plasma\\x2dfallback\\x2dsession\\x2drestore@autostart.service/memory.pressure'), ('XDG_SESSION_CLASS', 'user'), ('COLORFGBG', '15;0'), ('TERMINFO_DIRS', '/usr/share/terminfo:/run/host/usr/share/terminfo'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_RC_FILES', '/etc/gtk-2.0/gtkrc:/home/her/.gtkrc-2.0:/home/her/.config/gtkrc-2.0'), ('PATH', '/opt/ros/humble/bin:/home/her/.local/bin:/home/her/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/sbin:/sbin:/bin'), ('SESSION_MANAGER', 'local/her-14AHP9:@/tmp/.ICE-unix/1680,unix/her-14AHP9:/tmp/.ICE-unix/1680'), ('INVOCATION_ID', '9235238b6d83441c91fd5bca20befa47'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session1'), ('XDG_MENU_PREFIX', 'plasma-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('ICEAUTHORITY', '/run/user/1000/iceauth_ApwCTw'), ('DISPLAY', ':1'), ('MCFLY_FUZZY', 'true'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'KDE'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XDG_DATA_HOME', '/home/her/.local/share'), ('XDG_CONFIG_HOME', '/home/her/.config'), ('XDG_SESSION_DESKTOP', 'KDE'), ('XAUTHORITY', '/run/user/1000/xauth_InrUvw'), ('ICAST_DIR', '/home/her/SDK/ICAST'), ('MANPAGER', "sh -c 'col -bx | bat -l man -p'"), ('AMENT_PREFIX_PATH', '/home/her/turtlebot3_ws/install/turtlebot3_simulations:/home/her/turtlebot3_ws/install/turtlebot3_gazebo:/home/her/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/humble'), ('SHELL', '/usr/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('KONSOLE_DBUS_SERVICE', ':1.52'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('PWD', '/home/her/Documents/project/SIM_IST/build/towing'), ('MCFLY_SESSION_ID', 'JgMsqdh8P6VPOUIsu8E7dIJ1'), ('CONTAINER_ID', 'ubuntu22'), ('QT_QPA_PLATFORM', 'xcb'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/home/her/.config/kdedefaults:/etc/xdg'), ('PYLON_ROOT', '/opt/pylon'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share'), ('STARSHIP_SESSION_KEY', '1771921724133151'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('KDE_SESSION_UID', '1000'), ('GTK_USE_PORTAL', '1'), ('COLCON', '1'), ('MEMORY_PRESSURE_WRITE', 'c29tZSAyMDAwMDAgMjAwMDAwMAA='), ('GENICAM_GENTL64_PATH', ':/opt/pylon/lib/gentlproducer/gtl:/opt/pylon/lib/pylonCXP/bin/'), ('EDITOR', '/usr/bin/micro'), ('CMAKE_PREFIX_PATH', '/home/her/turtlebot3_ws/install/turtlebot3_simulations:/home/her/turtlebot3_ws/install/turtlebot3_gazebo:/home/her/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/humble')]), 'shell': False}
+[0.098404] (-) TimerEvent: {}
+[0.198927] (-) TimerEvent: {}
+[0.242304] (towing) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299083] (-) TimerEvent: {}
+[0.399526] (-) TimerEvent: {}
+[0.500028] (-) TimerEvent: {}
+[0.567609] (towing) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.595498] (towing) StdoutLine: {'line': b'-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.600180] (-) TimerEvent: {}
+[0.700574] (-) TimerEvent: {}
+[0.800988] (-) TimerEvent: {}
+[0.901419] (-) TimerEvent: {}
+[1.001819] (-) TimerEvent: {}
+[1.102312] (-) TimerEvent: {}
+[1.202740] (-) TimerEvent: {}
+[1.303157] (-) TimerEvent: {}
+[1.309363] (towing) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.316594] (towing) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.334810] (towing) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.359847] (towing) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.403344] (-) TimerEvent: {}
+[1.410012] (towing) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.496625] (towing) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.500883] (towing) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.503471] (-) TimerEvent: {}
+[1.603909] (-) TimerEvent: {}
+[1.704384] (-) TimerEvent: {}
+[1.804899] (-) TimerEvent: {}
+[1.905353] (-) TimerEvent: {}
+[2.005854] (-) TimerEvent: {}
+[2.064264] (towing) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.105955] (-) TimerEvent: {}
+[2.202431] (towing) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[2.206099] (-) TimerEvent: {}
+[2.239668] (towing) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[2.281748] (towing) StdoutLine: {'line': b'-- Found tf2: 0.25.18 (/opt/ros/humble/share/tf2/cmake)\n'}
+[2.292649] (towing) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.18 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[2.306252] (-) TimerEvent: {}
+[2.406630] (-) TimerEvent: {}
+[2.495128] (towing) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.18 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[2.503412] (towing) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[2.506491] (towing) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.506736] (-) TimerEvent: {}
+[2.509301] (towing) StdoutLine: {'line': b'-- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[2.591641] (towing) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[2.606932] (-) TimerEvent: {}
+[2.675250] (towing) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[2.680769] (towing) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.701765] (towing) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[2.707067] (-) TimerEvent: {}
+[2.707807] (towing) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[2.723001] (towing) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[2.724482] (towing) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[2.745346] (towing) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[2.745765] (towing) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[2.746037] (towing) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[2.746216] (towing) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[2.746378] (towing) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[2.746513] (towing) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[2.746653] (towing) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[2.746787] (towing) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[2.746944] (towing) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[2.747077] (towing) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[2.747206] (towing) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[2.747339] (towing) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[2.807250] (-) TimerEvent: {}
+[2.907654] (-) TimerEvent: {}
+[3.001009] (towing) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.002991] (towing) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[3.003621] (towing) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[3.007765] (-) TimerEvent: {}
+[3.057918] (towing) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[3.102175] (towing) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[3.107958] (-) TimerEvent: {}
+[3.113427] (towing) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[3.145859] (towing) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[3.208109] (-) TimerEvent: {}
+[3.244373] (towing) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[3.273517] (towing) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[3.308245] (-) TimerEvent: {}
+[3.350826] (towing) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[3.351977] (towing) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[3.408353] (-) TimerEvent: {}
+[3.414580] (towing) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.426970] (towing) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[3.456420] (towing) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[3.508538] (-) TimerEvent: {}
+[3.537499] (towing) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[3.539346] (towing) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[3.540713] (towing) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[3.541216] (towing) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[3.541471] (towing) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[3.565712] (towing) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[3.567288] (towing) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[3.568584] (towing) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[3.569410] (towing) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.573578] (towing) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[3.574667] (towing) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[3.608700] (-) TimerEvent: {}
+[3.682063] (towing) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[3.708867] (-) TimerEvent: {}
+[3.711503] (towing) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[3.802421] (towing) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[3.809029] (-) TimerEvent: {}
+[3.832718] (towing) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[3.909167] (towing) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[3.909506] (-) TimerEvent: {}
+[3.910012] (towing) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.910879] (towing) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[3.917808] (towing) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[3.933782] (towing) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.009627] (-) TimerEvent: {}
+[4.109926] (-) TimerEvent: {}
+[4.145084] (towing) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.145635] (towing) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/her/Documents/project/SIM_IST/src/towing/include>\n'}
+[4.145914] (towing) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.146281] (towing) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[4.147522] (towing) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.148362] (towing) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[4.152827] (towing) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.153223] (towing) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.153719] (towing) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.155268] (towing) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.210073] (-) TimerEvent: {}
+[4.310484] (-) TimerEvent: {}
+[4.363521] (towing) StdoutLine: {'line': b'-- Generating done\n'}
+[4.374276] (towing) StdoutLine: {'line': b'-- Build files have been written to: /home/her/Documents/project/SIM_IST/build/towing\n'}
+[4.393180] (towing) CommandEnded: {'returncode': 0}
+[4.394782] (towing) JobProgress: {'identifier': 'towing', 'progress': 'build'}
+[4.398343] (towing) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/her/Documents/project/SIM_IST/build/towing', '--', '-j16', '-l16'], 'cwd': '/home/her/Documents/project/SIM_IST/build/towing', 'env': OrderedDict([('PROFILEHOME', ''), ('MCFLY_RESULTS_SORT', 'LAST_RUN'), ('KDE_FULL_SESSION', 'true'), ('MAIL', '/var/spool/mail/her'), ('LANGUAGE', ''), ('USER', 'her'), ('PAM_KWALLET5_LOGIN', '/run/user/1000/kwallet5.socket'), ('LC_TIME', 'en_US.UTF-8'), ('STARSHIP_SHELL', 'fish'), ('HOSTNAME', 'her-14AHP9'), ('XDG_SESSION_TYPE', 'wayland'), ('MCFLY_INTERFACE_VIEW', 'BOTTOM'), ('MCFLY_HISTFILE', '/home/her/.zhistory'), ('KONSOLE_VERSION', '251201'), ('XDG_CACHE_HOME', '/home/her/.cache'), ('QT_WAYLAND_RECONNECT', '1'), ('SHLVL', '5'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', 'firedragon'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/her'), ('MCFLY_HISTORY', '/dev/null'), ('MCFLY_RESULTS', '20'), ('MOZ_ENABLE_WAYLAND', '1'), ('KDE_APPLICATIONS_AS_SCOPE', '1'), ('OLDPWD', '/home/her'), ('DESKTOP_SESSION', 'plasma'), ('AMD_VULKAN_ICD', 'RADV'), ('MANROFFOPT', '-c'), ('ROS_PYTHON_VERSION', '3'), ('GTK_RC_FILES', '/etc/gtk/gtkrc:/home/her/.gtkrc:/home/her/.config/gtkrc'), ('KDE_SESSION_VERSION', '6'), ('PS1', '\\[\\e[32m\\]\\u@\\h\\[\\e[0m\\]:\\[\\e[34m\\]\\w\\[\\e[0m\\]$'), ('LC_MONETARY', 'en_US.UTF-8'), ('KONSOLE_DBUS_SESSION', '/Sessions/1'), ('MANAGERPID', '1405'), ('DISTROBOX_ENTER_PATH', '/usr/bin/distrobox-enter'), ('SYSTEMD_EXEC_PID', '1955'), ('VISUAL', 'kate'), ('XDG_STATE_HOME', '/home/her/.local/state'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('container', 'sudo podman'), ('KONSOLE_DBUS_ACTIVATION_COOKIE', 'zIiQRY4785iK4PDXI3KaZo08mZ9wQRUBlsBQBCPGo5U='), ('MCFLY_HISTORY_FORMAT', 'zsh'), ('KONSOLE_DBUS_WINDOW', '/Windows/1'), ('DEBUGINFOD_URLS', 'https://debuginfod.archlinux.org'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/her/turtlebot3_ws/install'), ('XKB_DEFAULT_LAYOUT', 'us'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'her'), ('WINDOWID', '93903298832288'), ('MANAGERPIDFDID', '1406'), ('JOURNAL_STREAM', '9:29952'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('MEMORY_PRESSURE_WATCH', '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-org.kde.plasma\\x2dfallback\\x2dsession\\x2drestore@autostart.service/memory.pressure'), ('XDG_SESSION_CLASS', 'user'), ('COLORFGBG', '15;0'), ('TERMINFO_DIRS', '/usr/share/terminfo:/run/host/usr/share/terminfo'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_RC_FILES', '/etc/gtk-2.0/gtkrc:/home/her/.gtkrc-2.0:/home/her/.config/gtkrc-2.0'), ('PATH', '/opt/ros/humble/bin:/home/her/.local/bin:/home/her/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/sbin:/sbin:/bin'), ('SESSION_MANAGER', 'local/her-14AHP9:@/tmp/.ICE-unix/1680,unix/her-14AHP9:/tmp/.ICE-unix/1680'), ('INVOCATION_ID', '9235238b6d83441c91fd5bca20befa47'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session1'), ('XDG_MENU_PREFIX', 'plasma-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('ICEAUTHORITY', '/run/user/1000/iceauth_ApwCTw'), ('DISPLAY', ':1'), ('MCFLY_FUZZY', 'true'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'KDE'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XDG_DATA_HOME', '/home/her/.local/share'), ('XDG_CONFIG_HOME', '/home/her/.config'), ('XDG_SESSION_DESKTOP', 'KDE'), ('XAUTHORITY', '/run/user/1000/xauth_InrUvw'), ('ICAST_DIR', '/home/her/SDK/ICAST'), ('MANPAGER', "sh -c 'col -bx | bat -l man -p'"), ('AMENT_PREFIX_PATH', '/home/her/turtlebot3_ws/install/turtlebot3_simulations:/home/her/turtlebot3_ws/install/turtlebot3_gazebo:/home/her/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/humble'), ('SHELL', '/usr/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('KONSOLE_DBUS_SERVICE', ':1.52'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('PWD', '/home/her/Documents/project/SIM_IST/build/towing'), ('MCFLY_SESSION_ID', 'JgMsqdh8P6VPOUIsu8E7dIJ1'), ('CONTAINER_ID', 'ubuntu22'), ('QT_QPA_PLATFORM', 'xcb'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/home/her/.config/kdedefaults:/etc/xdg'), ('PYLON_ROOT', '/opt/pylon'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share'), ('STARSHIP_SESSION_KEY', '1771921724133151'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('KDE_SESSION_UID', '1000'), ('GTK_USE_PORTAL', '1'), ('COLCON', '1'), ('MEMORY_PRESSURE_WRITE', 'c29tZSAyMDAwMDAgMjAwMDAwMAA='), ('GENICAM_GENTL64_PATH', ':/opt/pylon/lib/gentlproducer/gtl:/opt/pylon/lib/pylonCXP/bin/'), ('EDITOR', '/usr/bin/micro'), ('CMAKE_PREFIX_PATH', '/home/her/turtlebot3_ws/install/turtlebot3_simulations:/home/her/turtlebot3_ws/install/turtlebot3_gazebo:/home/her/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/humble')]), 'shell': False}
+[4.410589] (-) TimerEvent: {}
+[4.496291] (towing) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target towing_controller\x1b[0m\n'}
+[4.510773] (-) TimerEvent: {}
+[4.611249] (-) TimerEvent: {}
+[4.711733] (-) TimerEvent: {}
+[4.812209] (-) TimerEvent: {}
+[4.912705] (-) TimerEvent: {}
+[5.013094] (-) TimerEvent: {}
+[5.100865] (towing) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/towing_controller.dir/src/towing_controller.cpp.o\x1b[0m\n'}
+[5.113204] (-) TimerEvent: {}
+[5.213583] (-) TimerEvent: {}
+[5.314053] (-) TimerEvent: {}
+[5.414507] (-) TimerEvent: {}
+[5.515154] (-) TimerEvent: {}
+[5.615872] (-) TimerEvent: {}
+[5.716325] (-) TimerEvent: {}
+[5.816721] (-) TimerEvent: {}
+[5.917232] (-) TimerEvent: {}
+[6.017730] (-) TimerEvent: {}
+[6.118228] (-) TimerEvent: {}
+[6.218759] (-) TimerEvent: {}
+[6.319265] (-) TimerEvent: {}
+[6.419740] (-) TimerEvent: {}
+[6.520236] (-) TimerEvent: {}
+[6.620708] (-) TimerEvent: {}
+[6.721141] (-) TimerEvent: {}
+[6.821652] (-) TimerEvent: {}
+[6.922133] (-) TimerEvent: {}
+[7.022592] (-) TimerEvent: {}
+[7.123105] (-) TimerEvent: {}
+[7.223568] (-) TimerEvent: {}
+[7.324006] (-) TimerEvent: {}
+[7.424463] (-) TimerEvent: {}
+[7.524928] (-) TimerEvent: {}
+[7.625380] (-) TimerEvent: {}
+[7.725853] (-) TimerEvent: {}
+[7.826282] (-) TimerEvent: {}
+[7.926662] (-) TimerEvent: {}
+[8.027263] (-) TimerEvent: {}
+[8.127752] (-) TimerEvent: {}
+[8.228263] (-) TimerEvent: {}
+[8.328713] (-) TimerEvent: {}
+[8.429197] (-) TimerEvent: {}
+[8.529639] (-) TimerEvent: {}
+[8.630190] (-) TimerEvent: {}
+[8.730657] (-) TimerEvent: {}
+[8.831111] (-) TimerEvent: {}
+[8.931560] (-) TimerEvent: {}
+[9.031926] (-) TimerEvent: {}
+[9.132333] (-) TimerEvent: {}
+[9.232755] (-) TimerEvent: {}
+[9.333278] (-) TimerEvent: {}
+[9.433736] (-) TimerEvent: {}
+[9.534249] (-) TimerEvent: {}
+[9.634731] (-) TimerEvent: {}
+[9.735239] (-) TimerEvent: {}
+[9.835713] (-) TimerEvent: {}
+[9.936245] (-) TimerEvent: {}
+[10.036708] (-) TimerEvent: {}
+[10.137200] (-) TimerEvent: {}
+[10.237675] (-) TimerEvent: {}
+[10.338169] (-) TimerEvent: {}
+[10.438631] (-) TimerEvent: {}
+[10.539117] (-) TimerEvent: {}
+[10.639577] (-) TimerEvent: {}
+[10.740054] (-) TimerEvent: {}
+[10.840516] (-) TimerEvent: {}
+[10.940978] (-) TimerEvent: {}
+[11.041441] (-) TimerEvent: {}
+[11.141908] (-) TimerEvent: {}
+[11.242387] (-) TimerEvent: {}
+[11.342916] (-) TimerEvent: {}
+[11.443389] (-) TimerEvent: {}
+[11.543875] (-) TimerEvent: {}
+[11.644313] (-) TimerEvent: {}
+[11.744707] (-) TimerEvent: {}
+[11.845225] (-) TimerEvent: {}
+[11.945703] (-) TimerEvent: {}
+[12.046192] (-) TimerEvent: {}
+[12.146635] (-) TimerEvent: {}
+[12.247142] (-) TimerEvent: {}
+[12.347631] (-) TimerEvent: {}
+[12.448203] (-) TimerEvent: {}
+[12.548729] (-) TimerEvent: {}
+[12.649359] (-) TimerEvent: {}
+[12.749845] (-) TimerEvent: {}
+[12.850331] (-) TimerEvent: {}
+[12.950900] (-) TimerEvent: {}
+[13.051406] (-) TimerEvent: {}
+[13.151901] (-) TimerEvent: {}
+[13.252386] (-) TimerEvent: {}
+[13.352838] (-) TimerEvent: {}
+[13.453250] (-) TimerEvent: {}
+[13.553732] (-) TimerEvent: {}
+[13.654241] (-) TimerEvent: {}
+[13.754730] (-) TimerEvent: {}
+[13.855256] (-) TimerEvent: {}
+[13.955719] (-) TimerEvent: {}
+[14.056190] (-) TimerEvent: {}
+[14.156654] (-) TimerEvent: {}
+[14.257180] (-) TimerEvent: {}
+[14.357673] (-) TimerEvent: {}
+[14.458179] (-) TimerEvent: {}
+[14.558529] (-) TimerEvent: {}
+[14.658952] (-) TimerEvent: {}
+[14.759405] (-) TimerEvent: {}
+[14.860149] (-) TimerEvent: {}
+[14.960566] (-) TimerEvent: {}
+[15.061020] (-) TimerEvent: {}
+[15.161347] (-) TimerEvent: {}
+[15.261691] (-) TimerEvent: {}
+[15.362139] (-) TimerEvent: {}
+[15.462576] (-) TimerEvent: {}
+[15.563040] (-) TimerEvent: {}
+[15.663561] (-) TimerEvent: {}
+[15.764025] (-) TimerEvent: {}
+[15.864470] (-) TimerEvent: {}
+[15.964947] (-) TimerEvent: {}
+[16.065253] (-) TimerEvent: {}
+[16.165545] (-) TimerEvent: {}
+[16.265956] (-) TimerEvent: {}
+[16.366394] (-) TimerEvent: {}
+[16.466872] (-) TimerEvent: {}
+[16.567327] (-) TimerEvent: {}
+[16.667786] (-) TimerEvent: {}
+[16.768245] (-) TimerEvent: {}
+[16.868703] (-) TimerEvent: {}
+[16.969167] (-) TimerEvent: {}
+[17.069611] (-) TimerEvent: {}
+[17.170095] (-) TimerEvent: {}
+[17.270490] (-) TimerEvent: {}
+[17.370795] (-) TimerEvent: {}
+[17.471161] (-) TimerEvent: {}
+[17.571528] (-) TimerEvent: {}
+[17.671966] (-) TimerEvent: {}
+[17.772415] (-) TimerEvent: {}
+[17.872881] (-) TimerEvent: {}
+[17.973300] (-) TimerEvent: {}
+[18.073635] (-) TimerEvent: {}
+[18.174099] (-) TimerEvent: {}
+[18.274560] (-) TimerEvent: {}
+[18.375004] (-) TimerEvent: {}
+[18.475450] (-) TimerEvent: {}
+[18.575909] (-) TimerEvent: {}
+[18.676350] (-) TimerEvent: {}
+[18.776786] (-) TimerEvent: {}
+[18.877249] (-) TimerEvent: {}
+[18.977701] (-) TimerEvent: {}
+[19.078122] (-) TimerEvent: {}
+[19.178508] (-) TimerEvent: {}
+[19.279003] (-) TimerEvent: {}
+[19.379491] (-) TimerEvent: {}
+[19.479959] (-) TimerEvent: {}
+[19.580390] (-) TimerEvent: {}
+[19.680782] (-) TimerEvent: {}
+[19.781266] (-) TimerEvent: {}
+[19.881741] (-) TimerEvent: {}
+[19.982260] (-) TimerEvent: {}
+[20.082747] (-) TimerEvent: {}
+[20.183330] (-) TimerEvent: {}
+[20.283998] (-) TimerEvent: {}
+[20.384844] (-) TimerEvent: {}
+[20.485301] (-) TimerEvent: {}
+[20.585739] (-) TimerEvent: {}
+[20.686191] (-) TimerEvent: {}
+[20.786593] (-) TimerEvent: {}
+[20.886955] (-) TimerEvent: {}
+[20.987399] (-) TimerEvent: {}
+[21.087844] (-) TimerEvent: {}
+[21.188288] (-) TimerEvent: {}
+[21.288728] (-) TimerEvent: {}
+[21.389198] (-) TimerEvent: {}
+[21.489642] (-) TimerEvent: {}
+[21.590104] (-) TimerEvent: {}
+[21.690499] (-) TimerEvent: {}
+[21.790876] (-) TimerEvent: {}
+[21.891313] (-) TimerEvent: {}
+[21.991743] (-) TimerEvent: {}
+[22.092207] (-) TimerEvent: {}
+[22.192633] (-) TimerEvent: {}
+[22.293097] (-) TimerEvent: {}
+[22.393551] (-) TimerEvent: {}
+[22.493979] (-) TimerEvent: {}
+[22.594405] (-) TimerEvent: {}
+[22.694853] (-) TimerEvent: {}
+[22.795283] (-) TimerEvent: {}
+[22.895710] (-) TimerEvent: {}
+[22.996164] (-) TimerEvent: {}
+[23.096597] (-) TimerEvent: {}
+[23.197045] (-) TimerEvent: {}
+[23.297475] (-) TimerEvent: {}
+[23.397896] (-) TimerEvent: {}
+[23.498282] (-) TimerEvent: {}
+[23.598638] (-) TimerEvent: {}
+[23.699105] (-) TimerEvent: {}
+[23.799541] (-) TimerEvent: {}
+[23.899971] (-) TimerEvent: {}
+[24.000399] (-) TimerEvent: {}
+[24.100866] (-) TimerEvent: {}
+[24.201308] (-) TimerEvent: {}
+[24.301752] (-) TimerEvent: {}
+[24.402190] (-) TimerEvent: {}
+[24.502631] (-) TimerEvent: {}
+[24.603105] (-) TimerEvent: {}
+[24.678588] (towing) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libtowing_controller.so\x1b[0m\n'}
+[24.703262] (-) TimerEvent: {}
+[24.803670] (-) TimerEvent: {}
+[24.904145] (-) TimerEvent: {}
+[25.004553] (-) TimerEvent: {}
+[25.105002] (-) TimerEvent: {}
+[25.205454] (-) TimerEvent: {}
+[25.305859] (-) TimerEvent: {}
+[25.406295] (-) TimerEvent: {}
+[25.463088] (towing) StdoutLine: {'line': b'[100%] Built target towing_controller\n'}
+[25.474742] (towing) CommandEnded: {'returncode': 0}
+[25.475536] (towing) JobProgress: {'identifier': 'towing', 'progress': 'install'}
+[25.484453] (towing) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/her/Documents/project/SIM_IST/build/towing'], 'cwd': '/home/her/Documents/project/SIM_IST/build/towing', 'env': OrderedDict([('PROFILEHOME', ''), ('MCFLY_RESULTS_SORT', 'LAST_RUN'), ('KDE_FULL_SESSION', 'true'), ('MAIL', '/var/spool/mail/her'), ('LANGUAGE', ''), ('USER', 'her'), ('PAM_KWALLET5_LOGIN', '/run/user/1000/kwallet5.socket'), ('LC_TIME', 'en_US.UTF-8'), ('STARSHIP_SHELL', 'fish'), ('HOSTNAME', 'her-14AHP9'), ('XDG_SESSION_TYPE', 'wayland'), ('MCFLY_INTERFACE_VIEW', 'BOTTOM'), ('MCFLY_HISTFILE', '/home/her/.zhistory'), ('KONSOLE_VERSION', '251201'), ('XDG_CACHE_HOME', '/home/her/.cache'), ('QT_WAYLAND_RECONNECT', '1'), ('SHLVL', '5'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', 'firedragon'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/her'), ('MCFLY_HISTORY', '/dev/null'), ('MCFLY_RESULTS', '20'), ('MOZ_ENABLE_WAYLAND', '1'), ('KDE_APPLICATIONS_AS_SCOPE', '1'), ('OLDPWD', '/home/her'), ('DESKTOP_SESSION', 'plasma'), ('AMD_VULKAN_ICD', 'RADV'), ('MANROFFOPT', '-c'), ('ROS_PYTHON_VERSION', '3'), ('GTK_RC_FILES', '/etc/gtk/gtkrc:/home/her/.gtkrc:/home/her/.config/gtkrc'), ('KDE_SESSION_VERSION', '6'), ('PS1', '\\[\\e[32m\\]\\u@\\h\\[\\e[0m\\]:\\[\\e[34m\\]\\w\\[\\e[0m\\]$'), ('LC_MONETARY', 'en_US.UTF-8'), ('KONSOLE_DBUS_SESSION', '/Sessions/1'), ('MANAGERPID', '1405'), ('DISTROBOX_ENTER_PATH', '/usr/bin/distrobox-enter'), ('SYSTEMD_EXEC_PID', '1955'), ('VISUAL', 'kate'), ('XDG_STATE_HOME', '/home/her/.local/state'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('container', 'sudo podman'), ('KONSOLE_DBUS_ACTIVATION_COOKIE', 'zIiQRY4785iK4PDXI3KaZo08mZ9wQRUBlsBQBCPGo5U='), ('MCFLY_HISTORY_FORMAT', 'zsh'), ('KONSOLE_DBUS_WINDOW', '/Windows/1'), ('DEBUGINFOD_URLS', 'https://debuginfod.archlinux.org'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/her/turtlebot3_ws/install'), ('XKB_DEFAULT_LAYOUT', 'us'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'her'), ('WINDOWID', '93903298832288'), ('MANAGERPIDFDID', '1406'), ('JOURNAL_STREAM', '9:29952'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('MEMORY_PRESSURE_WATCH', '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-org.kde.plasma\\x2dfallback\\x2dsession\\x2drestore@autostart.service/memory.pressure'), ('XDG_SESSION_CLASS', 'user'), ('COLORFGBG', '15;0'), ('TERMINFO_DIRS', '/usr/share/terminfo:/run/host/usr/share/terminfo'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_RC_FILES', '/etc/gtk-2.0/gtkrc:/home/her/.gtkrc-2.0:/home/her/.config/gtkrc-2.0'), ('PATH', '/opt/ros/humble/bin:/home/her/.local/bin:/home/her/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/sbin:/sbin:/bin'), ('SESSION_MANAGER', 'local/her-14AHP9:@/tmp/.ICE-unix/1680,unix/her-14AHP9:/tmp/.ICE-unix/1680'), ('INVOCATION_ID', '9235238b6d83441c91fd5bca20befa47'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session1'), ('XDG_MENU_PREFIX', 'plasma-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('ICEAUTHORITY', '/run/user/1000/iceauth_ApwCTw'), ('DISPLAY', ':1'), ('MCFLY_FUZZY', 'true'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'KDE'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XDG_DATA_HOME', '/home/her/.local/share'), ('XDG_CONFIG_HOME', '/home/her/.config'), ('XDG_SESSION_DESKTOP', 'KDE'), ('XAUTHORITY', '/run/user/1000/xauth_InrUvw'), ('ICAST_DIR', '/home/her/SDK/ICAST'), ('MANPAGER', "sh -c 'col -bx | bat -l man -p'"), ('AMENT_PREFIX_PATH', '/home/her/turtlebot3_ws/install/turtlebot3_simulations:/home/her/turtlebot3_ws/install/turtlebot3_gazebo:/home/her/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/humble'), ('SHELL', '/usr/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('KONSOLE_DBUS_SERVICE', ':1.52'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('PWD', '/home/her/Documents/project/SIM_IST/build/towing'), ('MCFLY_SESSION_ID', 'JgMsqdh8P6VPOUIsu8E7dIJ1'), ('CONTAINER_ID', 'ubuntu22'), ('QT_QPA_PLATFORM', 'xcb'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/home/her/.config/kdedefaults:/etc/xdg'), ('PYLON_ROOT', '/opt/pylon'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share'), ('STARSHIP_SESSION_KEY', '1771921724133151'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('KDE_SESSION_UID', '1000'), ('GTK_USE_PORTAL', '1'), ('COLCON', '1'), ('MEMORY_PRESSURE_WRITE', 'c29tZSAyMDAwMDAgMjAwMDAwMAA='), ('GENICAM_GENTL64_PATH', ':/opt/pylon/lib/gentlproducer/gtl:/opt/pylon/lib/pylonCXP/bin/'), ('EDITOR', '/usr/bin/micro'), ('CMAKE_PREFIX_PATH', '/home/her/turtlebot3_ws/install/turtlebot3_simulations:/home/her/turtlebot3_ws/install/turtlebot3_gazebo:/home/her/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/humble')]), 'shell': False}
+[25.489883] (towing) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[25.491251] (towing) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[25.491430] (towing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/lib/libtowing_controller.so\n'}
+[25.491731] (towing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//launch/all.launch.py\n'}
+[25.491863] (towing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//launch/display.launch.py\n'}
+[25.491969] (towing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//launch/gazebo.launch.py\n'}
+[25.492191] (towing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//urdf/gazebo_plugin.xacro\n'}
+[25.492320] (towing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//urdf/gazebo_properties.xacro\n'}
+[25.492402] (towing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//urdf/towing.csv\n'}
+[25.492489] (towing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//urdf/towing.urdf.xacro\n'}
+[25.492563] (towing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//urdf/towing_core copy.xacro\n'}
+[25.492633] (towing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//urdf/towing_core.xacro\n'}
+[25.492701] (towing) StdoutLine: {'line': b'-- Symlinking: /home/her/Documents/project/SIM_IST/install/towing/share/towing//urdf/towing_core.xacro.bak\n'}
+[25.501027] (towing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//config/joint_names_towing.yaml\n'}
+[25.501339] (towing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//models/towing/meshes/base_link.STL\n'}
+[25.501585] (towing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//models/towing/meshes/flwheel.STL\n'}
+[25.501764] (towing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//models/towing/meshes/frwheel.STL\n'}
+[25.501994] (towing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//models/towing/meshes/lftowwheel.STL\n'}
+[25.502068] (towing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//models/towing/meshes/lrtowwheel.STL\n'}
+[25.502137] (towing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//models/towing/meshes/ltowsteer.STL\n'}
+[25.502185] (towing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//models/towing/meshes/lwhell.STL\n'}
+[25.502267] (towing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//models/towing/meshes/rftowwheel.STL\n'}
+[25.502338] (towing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//models/towing/meshes/rrtowwheel.STL\n'}
+[25.502389] (towing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//models/towing/meshes/rtowsteer.STL\n'}
+[25.502467] (towing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//models/towing/meshes/rwheel.STL\n'}
+[25.502546] (towing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//models/towing/meshes/steer.STL\n'}
+[25.502596] (towing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//models/towing/meshes/tow.STL\n'}
+[25.502651] (towing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//models/towing/model.config\n'}
+[25.502916] (towing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//meshes/base_link.STL\n'}
+[25.502990] (towing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//meshes/flwheel.STL\n'}
+[25.503080] (towing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//meshes/frwheel.STL\n'}
+[25.503181] (towing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//meshes/lftowwheel.STL\n'}
+[25.503274] (towing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//meshes/lrtowwheel.STL\n'}
+[25.503365] (towing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//meshes/ltowsteer.STL\n'}
+[25.503463] (towing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//meshes/lwhell.STL\n'}
+[25.503558] (towing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//meshes/rftowwheel.STL\n'}
+[25.503653] (towing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//meshes/rrtowwheel.STL\n'}
+[25.503751] (towing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//meshes/rtowsteer.STL\n'}
+[25.503856] (towing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//meshes/rwheel.STL\n'}
+[25.503953] (towing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//meshes/steer.STL\n'}
+[25.504050] (towing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//meshes/tow.STL\n'}
+[25.504174] (towing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//urdf.rviz\n'}
+[25.504316] (towing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/ament_index/resource_index/package_run_dependencies/towing\n'}
+[25.504451] (towing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/ament_index/resource_index/parent_prefix_path/towing\n'}
+[25.504581] (towing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing/environment/ament_prefix_path.sh\n'}
+[25.504696] (towing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing/environment/ament_prefix_path.dsv\n'}
+[25.504825] (towing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing/environment/path.sh\n'}
+[25.504956] (towing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing/environment/path.dsv\n'}
+[25.505064] (towing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing/local_setup.bash\n'}
+[25.505183] (towing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing/local_setup.sh\n'}
+[25.505292] (towing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing/local_setup.zsh\n'}
+[25.505401] (towing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing/local_setup.dsv\n'}
+[25.505474] (towing) StdoutLine: {'line': b'-- Symlinking: /home/her/Documents/project/SIM_IST/install/towing/share/towing/package.dsv\n'}
+[25.506353] (-) TimerEvent: {}
+[25.514716] (towing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/ament_index/resource_index/packages/towing\n'}
+[25.515110] (towing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing/cmake/towingConfig.cmake\n'}
+[25.515305] (towing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing/cmake/towingConfig-version.cmake\n'}
+[25.515374] (towing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing/package.xml\n'}
+[25.517691] (towing) CommandEnded: {'returncode': 0}
+[25.537117] (towing) JobEnded: {'identifier': 'towing', 'rc': 0}
+[25.538124] (-) EventReactorShutdown: {}

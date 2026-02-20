@@ -1,0 +1,64 @@
+[0.009s] Invoking command in '/home/her/Documents/project/SIM_IST/build/towing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=\[\e[32m\]\u@\h\[\e[0m\]:\[\e[34m\]\w\[\e[0m\]$ /usr/bin/cmake --build /home/her/Documents/project/SIM_IST/build/towing -- -j16 -l16
+[0.057s] [35m[1mConsolidate compiler generated dependencies of target towing_controller[0m
+[0.113s] [ 50%] [32mBuilding CXX object CMakeFiles/towing_controller.dir/src/towing_controller.cpp.o[0m
+[13.158s] [100%] [32m[1mLinking CXX shared library libtowing_controller.so[0m
+[13.717s] [100%] Built target towing_controller
+[13.727s] Invoked command in '/home/her/Documents/project/SIM_IST/build/towing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=\[\e[32m\]\u@\h\[\e[0m\]:\[\e[34m\]\w\[\e[0m\]$ /usr/bin/cmake --build /home/her/Documents/project/SIM_IST/build/towing -- -j16 -l16
+[13.736s] Invoking command in '/home/her/Documents/project/SIM_IST/build/towing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=\[\e[32m\]\u@\h\[\e[0m\]:\[\e[34m\]\w\[\e[0m\]$ /usr/bin/cmake --install /home/her/Documents/project/SIM_IST/build/towing
+[13.741s] -- Install configuration: ""
+[13.741s] -- Execute custom install script
+[13.741s] -- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/lib/libtowing_controller.so
+[13.741s] -- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//launch/all.launch.py
+[13.742s] -- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//launch/display.launch.py
+[13.742s] -- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//launch/gazebo.launch.py
+[13.742s] -- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//urdf/gazebo_plugin.xacro
+[13.742s] -- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//urdf/gazebo_properties.xacro
+[13.742s] -- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//urdf/towing.csv
+[13.742s] -- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//urdf/towing.urdf.xacro
+[13.742s] -- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//urdf/towing_core copy.xacro
+[13.742s] -- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//urdf/towing_core.xacro
+[13.742s] -- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//config/joint_names_towing.yaml
+[13.743s] -- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//models/towing/meshes/base_link.STL
+[13.743s] -- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//models/towing/meshes/flwheel.STL
+[13.743s] -- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//models/towing/meshes/frwheel.STL
+[13.743s] -- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//models/towing/meshes/lftowwheel.STL
+[13.743s] -- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//models/towing/meshes/lrtowwheel.STL
+[13.743s] -- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//models/towing/meshes/ltowsteer.STL
+[13.743s] -- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//models/towing/meshes/lwhell.STL
+[13.743s] -- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//models/towing/meshes/rftowwheel.STL
+[13.743s] -- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//models/towing/meshes/rrtowwheel.STL
+[13.743s] -- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//models/towing/meshes/rtowsteer.STL
+[13.743s] -- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//models/towing/meshes/rwheel.STL
+[13.743s] -- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//models/towing/meshes/steer.STL
+[13.744s] -- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//models/towing/meshes/tow.STL
+[13.744s] -- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//models/towing/model.config
+[13.744s] -- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//meshes/base_link.STL
+[13.744s] -- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//meshes/flwheel.STL
+[13.744s] -- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//meshes/frwheel.STL
+[13.744s] -- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//meshes/lftowwheel.STL
+[13.744s] -- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//meshes/lrtowwheel.STL
+[13.744s] -- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//meshes/ltowsteer.STL
+[13.744s] -- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//meshes/lwhell.STL
+[13.744s] -- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//meshes/rftowwheel.STL
+[13.745s] -- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//meshes/rrtowwheel.STL
+[13.745s] -- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//meshes/rtowsteer.STL
+[13.745s] -- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//meshes/rwheel.STL
+[13.745s] -- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//meshes/steer.STL
+[13.745s] -- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//meshes/tow.STL
+[13.745s] -- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//urdf.rviz
+[13.745s] -- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/ament_index/resource_index/package_run_dependencies/towing
+[13.745s] -- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/ament_index/resource_index/parent_prefix_path/towing
+[13.745s] -- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing/environment/ament_prefix_path.sh
+[13.745s] -- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing/environment/ament_prefix_path.dsv
+[13.745s] -- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing/environment/path.sh
+[13.746s] -- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing/environment/path.dsv
+[13.746s] -- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing/local_setup.bash
+[13.746s] -- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing/local_setup.sh
+[13.746s] -- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing/local_setup.zsh
+[13.746s] -- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing/local_setup.dsv
+[13.747s] -- Symlinking: /home/her/Documents/project/SIM_IST/install/towing/share/towing/package.dsv
+[13.753s] -- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/ament_index/resource_index/packages/towing
+[13.754s] -- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing/cmake/towingConfig.cmake
+[13.754s] -- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing/cmake/towingConfig-version.cmake
+[13.754s] -- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing/package.xml
+[13.756s] Invoked command in '/home/her/Documents/project/SIM_IST/build/towing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=\[\e[32m\]\u@\h\[\e[0m\]:\[\e[34m\]\w\[\e[0m\]$ /usr/bin/cmake --install /home/her/Documents/project/SIM_IST/build/towing

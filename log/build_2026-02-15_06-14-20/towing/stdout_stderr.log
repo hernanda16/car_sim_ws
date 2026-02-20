@@ -1,0 +1,60 @@
+[35m[1mConsolidate compiler generated dependencies of target towing_controller[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/towing_controller.dir/src/towing_controller.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libtowing_controller.so[0m
+[100%] Built target towing_controller
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/lib/libtowing_controller.so
+-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//launch/all.launch.py
+-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//launch/display.launch.py
+-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//launch/gazebo.launch.py
+-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//urdf/gazebo_plugin.xacro
+-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//urdf/gazebo_properties.xacro
+-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//urdf/towing.csv
+-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//urdf/towing.urdf.xacro
+-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//urdf/towing_core copy.xacro
+-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//urdf/towing_core.xacro
+-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//config/joint_names_towing.yaml
+-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//models/towing/meshes/base_link.STL
+-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//models/towing/meshes/flwheel.STL
+-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//models/towing/meshes/frwheel.STL
+-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//models/towing/meshes/lftowwheel.STL
+-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//models/towing/meshes/lrtowwheel.STL
+-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//models/towing/meshes/ltowsteer.STL
+-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//models/towing/meshes/lwhell.STL
+-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//models/towing/meshes/rftowwheel.STL
+-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//models/towing/meshes/rrtowwheel.STL
+-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//models/towing/meshes/rtowsteer.STL
+-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//models/towing/meshes/rwheel.STL
+-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//models/towing/meshes/steer.STL
+-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//models/towing/meshes/tow.STL
+-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//models/towing/model.config
+-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//meshes/base_link.STL
+-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//meshes/flwheel.STL
+-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//meshes/frwheel.STL
+-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//meshes/lftowwheel.STL
+-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//meshes/lrtowwheel.STL
+-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//meshes/ltowsteer.STL
+-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//meshes/lwhell.STL
+-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//meshes/rftowwheel.STL
+-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//meshes/rrtowwheel.STL
+-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//meshes/rtowsteer.STL
+-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//meshes/rwheel.STL
+-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//meshes/steer.STL
+-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//meshes/tow.STL
+-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing//urdf.rviz
+-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/ament_index/resource_index/package_run_dependencies/towing
+-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/ament_index/resource_index/parent_prefix_path/towing
+-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing/environment/path.sh
+-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing/environment/path.dsv
+-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing/local_setup.bash
+-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing/local_setup.sh
+-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing/local_setup.zsh
+-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing/local_setup.dsv
+-- Symlinking: /home/her/Documents/project/SIM_IST/install/towing/share/towing/package.dsv
+-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/ament_index/resource_index/packages/towing
+-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing/cmake/towingConfig.cmake
+-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing/cmake/towingConfig-version.cmake
+-- Up-to-date symlink: /home/her/Documents/project/SIM_IST/install/towing/share/towing/package.xml

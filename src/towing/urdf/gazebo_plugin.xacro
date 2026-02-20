@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="gazebo_plugin">
+    <gazebo>
+        <plugin name='tricycle_drive' filename='libgazebo_ros_tricycle_drive.so'>
+
+        <ros>
+            <namespace></namespace>
+            <remapping>cmd_vel:=cmd_vel</remapping>
+            <remapping>odom:=odom</remapping>
+        </ros>
+
+        <!-- wheels -->
+        <steering_joint>steer_joint</steering_joint>
+        <actuated_wheel_joint>front_wheel_virtual_joint</actuated_wheel_joint>
+        <encoder_wheel_left_joint>rear_left_wheel_joint</encoder_wheel_left_joint>
+        <encoder_wheel_right_joint>rear_right_wheel_joint</encoder_wheel_right_joint>
+
+        <!-- kinematics -->
+        <wheel_separation>0.86</wheel_separation>
+        <encoder_wheel_diameter>0.46</encoder_wheel_diameter>
+        <actuated_wheel_diameter>0.46</actuated_wheel_diameter>
+
+        <!-- limits -->
+        <max_wheel_torque>20</max_wheel_torque>
+        <max_wheel_acceleration>5.0</max_wheel_acceleration>
+        <max_steering_speed>1.0</max_steering_speed>
+
+        <!-- output -->
+        <publish_odom>true</publish_odom>
+        <publish_wheel_tf>false</publish_wheel_tf>
+        <publish_wheel_joint_state>true</publish_wheel_joint_state>
+
+        <odometry_frame>odom</odometry_frame>
+        <robot_base_frame>base_link</robot_base_frame>
+
+        </plugin>
+    </gazebo>
+    
+
+    <gazebo>
+        <plugin name="ros2_control" filename="libgazebo_ros2_control.so">
+        <parameters>/home/wildan/proyek/belajar/gazebo/src/raisa_description/config/ros2_control.yaml</parameters>
+        </plugin>
+    </gazebo>
+
+    <ros2_control name="GazeboSystem" type="system">
+        <hardware>
+        <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+        </hardware>
+
+        <joint name="wheel1_joint">
+        <command_interface name="velocity"/>
+        <state_interface name="position"/>
+        <state_interface name="velocity"/>
+        </joint>
+        <joint name="wheel2_joint">
+        <command_interface name="velocity"/>
+        <state_interface name="position"/>
+        <state_interface name="velocity"/>
+        </joint>
+        <joint name="wheel3_joint">
+        <command_interface name="velocity"/>
+        <state_interface name="position"/>
+        <state_interface name="velocity"/>
+        </joint>
+    </ros2_control>
+
+</robot>

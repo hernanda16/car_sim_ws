@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="towing_core">
+  <xacro:arg name="mesh_path" default="towing/meshes" />
+  <xacro:property name="mesh_path" value="$(arg mesh_path)" />
+  <!-- =================== -->
+  <!--      BASE ROBOT     -->
+  <!-- =================== -->
+  <link name="base_link">
+    <inertial>
+      <origin
+        xyz="0.11735 -8.1935E-05 -0.30584"
+        rpy="0 0 0" />
+      <mass value="50" />
+      <inertia
+        ixx="56.116"
+        ixy="-0.74787"
+        ixz="7.1158"
+        iyy="93.562"
+        iyz="0.080093"
+        izz="132.22" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0.21333 0 0.5817"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://${mesh_path}/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.21961 0.44314 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0.21333 0 0.5817"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://${mesh_path}/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- =================== -->
+  <!-- RODA BELAKANG ROBOT -->
+  <!-- =================== -->
+  <link
+    name="rear_left_wheel_link">
+    <inertial>
+      <origin
+        xyz="0 -5.5511E-17 -0.005"
+        rpy="0 0 0" />
+      <mass value="1" />
+      <inertia
+        ixx="0.23013"
+        ixy="-1.0538E-18"
+        ixz="-6.3363E-21"
+        iyy="0.23013"
+        iyz="8.6783E-22"
+        izz="0.42624" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://${mesh_path}/lwhell.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.25098 0.25098 0.25098 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://${mesh_path}/lwhell.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="rear_left_wheel_joint"
+    type="continuous">
+    <origin
+      xyz="0 0.43 0"
+      rpy="-1.5708 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="rear_left_wheel_link" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  <link
+    name="rear_right_wheel_link">
+    <inertial>
+      <origin
+        xyz="0 -5.55111512312578E-17 0.005"
+        rpy="0 0 0" />
+      <mass value="1" />
+      <inertia
+        ixx="0.230133756519099"
+        ixy="-1.05387149881349E-18"
+        ixz="-6.33625239749178E-21"
+        iyy="0.230133756519099"
+        iyz="8.67834780809092E-22"
+        izz="0.426240533886592" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://${mesh_path}/rwheel.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.250980392156863 0.250980392156863 0.250980392156863 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://${mesh_path}/rwheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="rear_right_wheel_joint"
+    type="continuous">
+    <origin
+      xyz="0 -0.43 0"
+      rpy="-1.5708 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="rear_right_wheel_link" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+
+  <!-- =================== -->
+  <!--        STEER        -->
+  <!-- =================== -->
+  <link
+    name="steer_link">
+    <inertial>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <mass value="1" />
+      <inertia
+        ixx="0.059801"
+        ixy="4.0015E-17"
+        ixz="5.2334E-17"
+        iyy="0.091335"
+        iyz="-5.3269E-17"
+        izz="0.11925" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0.21333"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://${mesh_path}/steer.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.50196 0.50196 0.50196 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0.21333"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://${mesh_path}/steer.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="steer_joint"
+    type="revolute">
+    <origin 
+      xyz="1.01086 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="steer_link" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-1.8"
+      upper="1.8"
+      effort="1000"
+      velocity="5" />
+    <dynamics
+      damping="10.0"
+      friction="1.0"/>
+  </joint>
+
+  <!-- =================== -->
+  <!--   RODA DEPAN ROBOT  -->
+  <!-- =================== -->
+  <link name="front_wheel_virtual_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.02" length="0.05"/>
+      </geometry>
+      <material name="transparent">
+        <color rgba="0 0 1 0.1"/>
+      </material>
+    </visual>
+  </link>
+  <joint name="front_wheel_virtual_joint" type="continuous">
+    <origin xyz="0 0 0" rpy="-1.5708 0 0"/>
+    <parent link="steer_link"/>
+    <child link="front_wheel_virtual_link"/>
+    <axis xyz="0 0 1"/>
+  </joint>
+  <link
+    name="front_left_wheel_link">
+    <inertial>
+      <origin
+        xyz="0 -5.5511E-17 -0.005"
+        rpy="0 0 0" />
+      <mass value="1" />
+      <inertia
+        ixx="0.14508"
+        ixy="7.8789E-20"
+        ixz="-1.1766E-20"
+        iyy="0.14508"
+        iyz="1.1139E-19"
+        izz="0.26335" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://${mesh_path}/flwheel.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.25098 0.25098 0.25098 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://${mesh_path}/flwheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="front_left_wheel_joint"
+    type="fixed">
+    <origin xyz="0 0 0.0875"
+          rpy="0 0 0"/>
+    <parent
+      link="front_wheel_virtual_link" />
+    <child
+      link="front_left_wheel_link" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  <link
+    name="front_right_wheel_link">
+    <inertial>
+      <origin
+        xyz="0 -8.3267E-17 0.005"
+        rpy="0 0 0" />
+      <mass value="1" />
+      <inertia
+        ixx="0.14508"
+        ixy="-2.0841E-18"
+        ixz="3.4593E-18"
+        iyy="0.14508"
+        iyz="-2.1586E-19"
+        izz="0.26335" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://${mesh_path}/frwheel.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.25098 0.25098 0.25098 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://${mesh_path}/frwheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="front_right_wheel_joint"
+    type="fixed">
+    <origin xyz="0 0 -0.0875"
+          rpy="0 0 0"/>
+    <parent
+      link="front_wheel_virtual_link" />
+    <child
+      link="front_right_wheel_link" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+</robot>

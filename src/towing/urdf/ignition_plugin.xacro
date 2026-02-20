@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- ====================================================== -->
+  <!-- Ignition Joint State Publisher (WAJIB untuk TF) -->
+  <!-- ====================================================== -->
+  <gazebo>
+    <plugin
+        filename="libignition-gazebo-joint-state-publisher-system.so"
+        name="ignition::gazebo::systems::JointStatePublisher">
+    </plugin>
+  </gazebo>
+
+  <!-- ====================================================== -->
+  <!-- Ignition Pose Publisher (recommended) -->
+  <!-- ====================================================== -->
+  <gazebo>
+    <plugin
+        filename="libignition-gazebo-pose-publisher-system.so"
+        name="ignition::gazebo::systems::PosePublisher">
+
+      <!-- publish full TF tree -->
+      <publish_link_pose>true</publish_link_pose>
+      <publish_sensor_pose>true</publish_sensor_pose>
+      <publish_collision_pose>false</publish_collision_pose>
+      <publish_visual_pose>false</publish_visual_pose>
+
+      <use_pose_vector_msg>true</use_pose_vector_msg>
+      <static_publisher>true</static_publisher>
+    </plugin>
+  </gazebo>
+
+</robot>
