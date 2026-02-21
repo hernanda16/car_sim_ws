@@ -18,6 +18,7 @@ def generate_launch_description():
     # process xacro (SAMA seperti punyamu)
     # =========================
     xacro_path = os.path.join(pkg_path, 'urdf', 'towing.urdf.xacro')
+    factory_model_path = os.path.join(pkg_path, 'models', 'factory', 'models', 'factory','model.sdf')
 
     robot_description = process_file(
         xacro_path,
@@ -33,7 +34,7 @@ def generate_launch_description():
     # =========================
     set_ign_resource = SetEnvironmentVariable(
         name='IGN_GAZEBO_RESOURCE_PATH',
-        value=pkg_path
+        value=os.path.join(ws_path, 'src/towing/models')
     )
 
     set_ign_plugin_path = SetEnvironmentVariable(
@@ -61,6 +62,19 @@ def generate_launch_description():
             '-x', '0',
             '-y', '0',
             '-z', '0.4'
+        ],
+        output='screen'
+    )
+
+    node_spawn_factory = Node(
+        package='ros_gz_sim',
+        executable='create',
+        arguments=[
+            '-name', 'factory',
+            '-file', factory_model_path,
+            '-x', '2',
+            '-y', '0',
+            '-z', '0'
         ],
         output='screen'
     )
@@ -147,11 +161,19 @@ def generate_launch_description():
     )
 
     # =========================
+    # return LaunchDescription([
+    #     set_ign_resource,
+    #     set_ign_plugin_path,
+    #     ignition,
+    #     node_spawn_factory,
+    # ])
+
     return LaunchDescription([
         set_ign_resource,
         set_ign_plugin_path,
         ignition,
         node_spawn,
+        node_spawn_factory,
         node_rsp,
         clock_bridge,
         steering_spawner,

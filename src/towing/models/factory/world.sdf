@@ -1,0 +1,8 @@
+<sdf version="1.7">
+  <world name="indoor">
+    <include>
+      <uri>model://factory</uri>
+      <pose>0 0 0 0 0 0</pose>
+    </include>
+  </world>
+</sdf>
