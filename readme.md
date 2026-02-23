@@ -1,4 +1,4 @@
-# 🚗 towing_ist_sim
+# 🚗 car_sim_ws
 
 A ROS 2 Humble–based towing vehicle simulation using **Ignition Gazebo** and **ros2_control**, featuring pseudo-Ackermann steering and rear-wheel drive (RWD).
 
@@ -53,7 +53,7 @@ sudo apt install \
 ## 1️⃣ Build the workspace
 
 ```bash
-cd ~/towing_ist_sim
+cd ~/car_sim_ws
 colcon build
 ```
 
@@ -146,5 +146,3 @@ Verify the library exists in:
 ```bash
 /opt/ros/humble/lib/
 ```
-
----
